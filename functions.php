@@ -32,3 +32,9 @@ add_action( 'wp_enqueue_scripts', function() {
   );
 } );
 
+// Add navigation menus to WordPress.
+register_nav_menus(
+  array(
+    'main_menu' => 'Main Menu'
+  )
+);
