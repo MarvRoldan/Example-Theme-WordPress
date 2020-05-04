@@ -6,5 +6,6 @@
             TechCareers by Manpower
         </p>
     </footer>
+    <?php wp_footer(); ?>
 </body>
 </html>
